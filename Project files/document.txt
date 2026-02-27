@@ -1,0 +1,1092 @@
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Exploratory Analysis of Rain Fall Data in India for Agriculture
+The Exploratory Analysis of Rainfall Data in India for Agriculture is a comprehensive study aimed at analyzing historical rainfall data across different regions in India. This project utilizes data visualization techniques, statistical analysis, and machine learning algorithms to gain insights into rainfall patterns, trends, and variability. The primary objective is to provide valuable information to farmers, agricultural experts, and policymakers for better decision-making related to crop planning, irrigation management, and agricultural risk assessment.
+
+Scenario 1: Crop Planning
+Farmers can use the exploratory analysis findings to understand the rainfall patterns in their region over time. This information helps in making informed decisions about crop selection, planting schedules, and choosing appropriate irrigation methods based on historical rainfall data and trends.
+
+Scenario 2: Irrigation Management
+Agricultural experts and irrigation authorities can benefit from the analysis to optimize water usage and irrigation scheduling. By understanding the historical rainfall patterns and variability, they can develop efficient irrigation strategies, implement water-saving techniques, and prevent waterlogging or drought-related crop damage.
+
+Scenario 3: Agricultural Risk Assessment
+Policymakers and insurance agencies can leverage the analysis results for assessing agricultural risk factors such as droughts, floods, or erratic rainfall. This information aids in designing effective crop insurance schemes, disaster management plans, and providing timely support to farmers during adverse weather conditions.
+
+
+Technical Architecture:
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Pre-requisites
+In order to develop this project we need to install the following software/packages:
+Step 1: Anaconda Navigator 
+
+Anaconda Navigator is a free and open-source distribution of the Python and R programming languages for data science and machine learning-related applications. It can be installed on Windows, Linux, and macOS.Conda is an open-source, cross-platform,  package management system. Anaconda comes with great tools like JupyterLab, Jupyter Notebook, QtConsole, Spyder, Glueviz, Orange, Rstudio, Visual Studio Code. 
+
+For this project, we will be using a Jupyter notebook and Spyder
+
+To install the Anaconda navigator and to know how to use Jupyter Notebook & Spyder using Anaconda watch the video
+
+
+
+
+Step 2: Python packages
+
+To build Machine learning models you must require the following packages
+
+Sklearn: Scikit-learn is a library in Python that provides many unsupervised and supervised learning algorithms.
+NumPy: NumPy is a Python package that stands for 'Numerical Python. It is the core library for scientific computing, which contains a powerful n-dimensional array of object  
+Pandas: pandas is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool, built on top of the Python programming language.  
+Matplotlib: It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits
+Step 3: Flask - Web framework used for building Web applications. 
+
+Watch the video below to learn how to install packages.
+
+
+
+If you are using anaconda navigator, follow the below steps to download the required packages:
+
+  Open anaconda prompt as administrator
+
+Type “pip install numpy ” and click enter
+Type “pip install pandas ” and click enter
+ Type “pip install scikit-learn” and click enter.
+Type ”pip install matplotlib” and click enter.
+ Type ”pip install scipy" and click enter.
+Type ”pip install pickle-mixin” and click enter.
+ Type ”pip install seaborn” and click enter.
+ Type “pip install Flask ” and click enter.
+If you are using Pycharm IDE, you can install the packages through the command prompt and follow the same syntax as above.
+
+
+
+One should have knowledge of the following Concepts
+
+Please refer to the videos below to gain sufficient required knowledge to complete the project.
+
+Supervised and unsupervised learning:
+
+
+
+
+Regression Classification and Clustering :
+
+
+
+Random Forest Classifier:
+
+
+
+
+Ensemble Technique:
+
+
+Decision Tree Classifier:
+
+
+
+
+KNN: Refer the link
+Xgboost: Refer the link
+Evaluation metrics: Refer the link
+
+Flask:
+
+
+
+Congrats! You have completed the basic fundamentals of various topics. 
+
+Let's start building the project.
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Project Objectives
+By the end of this project:
+
+You’ll be able to understand the problem to classify if it is a regression or a classification kind of problem.
+You will be able to know how to pre-process/clean the data using different data preprocessing techniques.
+You will be able to analyze or get insights into data through visualization.
+Applying different algorithms according to the dataset and based on visualization.
+You will be able to know how to find the accuracy of the model.
+You will be able to know how to build a web application using the Flask framework.
+
+
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Project Flow
+
+
+User interacts with the UI (User Interface) to enter the input values
+Entered input values are analyzed by the model which is integrated
+Once the model analyses the input the prediction is showcased on the UI
+To accomplish this, we have to complete all the activities and tasks listed below
+Data Collection.
+Collect the dataset or Create the dataset
+Data Pre-processing.
+Import the Libraries.
+Importing the dataset.
+Checking for Null Values.
+Data Visualization.
+Taking care of Missing Data.
+Feature Scaling.
+Splitting Data into Train and Test.
+Model Building
+Import the model building Libraries
+Initializing the model
+Training and testing the model
+Evaluation of Model
+Save the Model
+  Application Building
+Create an HTML file
+Build a Python Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Project Structure
+Create a Project folder that contains files as shown below
+
+
+
+
+
+IBM endpoint deploy which contains template files, app.py, and .pkl files which are used for application building.
+Rainfall_prediction.ipynb is a model training code file of IBM Watson.
+Rainfall prediction consists of flask files for application building in local system and .ipynb model training code file.
+We need the model which is saved and the saved model in this content is Rainfall.pkl.
+Templates folder which contains index.HTML file, chance.HTML file, noChance.HTML file.
+Scale.pkl for scaling,encoder.pkl file for encoding the categorical data,imputer.pkl file for filling out the missing values.
+ 
+Data Collection
+ML depends heavily on data, without data, it is impossible for an “AI” to learn. It is the most crucial aspect that makes algorithm training possible. In Machine Learning projects, we need a training data set. It is the actual data set used to train the model for performing various actions.
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Download the dataset
+You can collect datasets from different open sources like kaggle.com, data.gov, UCI machine learning repository etc.
+ Please refer to the link given below to download the data set and to know about the dataset
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Data Pre-processing
+Data Pre-processing includes the following main tasks
+
+
+Import the Libraries.
+
+Importing the dataset.
+
+Checking for Null Values.
+
+Data Visualization.
+
+Feature Scaling.
+
+Splitting Data into Train and Test.
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Import Necessary Libraries
+o   It is important to import all the necessary libraries such as pandas, NumPy, matplotlib.
+o  Numpy- It is an open-source numerical Python library. It contains a multi-dimensional array and matrix data structures. It can be used to perform mathematical operations on arrays such as trigonometric, statistical, and algebraic routines.
+o  Pandas- It is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool, built on top of the Python programming language.
+o  Seaborn- Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+o   Matplotlib- Visualisation with python. It is a comprehensive library for creating static, animated, and interactive visualizations in Python
+o   Sklearn – which contains all the modules required for model building
+paste the image
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Importing the Dataset
+You might have your data in .csv files, .excel files 
+
+ 
+
+Let’s load a .csv data file into pandas using read_csv() function.We will need to locate the directory of the CSV file at first (it’s more efficient to keep the dataset in the same directory as your program).
+
+
+If your dataset is in some other location, Then 
+
+ Data=pd.read_csv(r”File_location/datasetname.csv”)
+
+
+
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Analyse the data
+head() method is used to return top n (5 by default) rows of a DataFrame or series.
+
+
+describe() method computes a summary of statistics like count, mean, standard deviation, min, max and quartile values.
+The output is as shown below 
+
+
+
+From the data we infer that there are only decimal values and no categorical values
+
+info() gives information about the data-
+
+
+
+
+data. shape: give the information about the dimension of the dataset, such as no. of rows and no. of columns
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Handling Missing Values
+1. After loading it is important to check the complete information of data as it can indicate many of the hidden information such as null values in a column or a row
+2. Check whether any null values are there or not. if it is present then the following can be done,
+
+
+
+
+
+3. Missing matrix: It is a way of representing the data in the 2-D form. It gives a colored visual summary of the data, Missingno matrix is used to identify the missing data in the dataset, which is represented as white color gaps
+
+
+
+4. Imputing data using the Imputation method in sklearn.Simpleimputer
+
+Filling NaN values with mean, median, and mode using fillna() method.
+We are using the mean method to fill the missing data, where the data type of the columns are numeric,
+We are using the simple imputer method, which is in sklearn library from the module impute.
+In impute method, for filling missing values of categorical data type we are using the most frequent method 
+
+
+From the heat map, we see that there are missing values in the dataset
+
+
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Data Visualization
+·         Data visualization is where a given data set is presented in a graphical format. It helps the detection of patterns, trends and correlations that might go undetected in text-based data.
+
+·         Understanding your data and the relationship present within it is just as important as any algorithm used to train your machine learning model. In fact, even the most sophisticated machine learning models will perform poorly on data that wasn’t visualized and understood properly.
+
+·         To visualize the dataset we need libraries called Matplotlib and Seaborn.
+
+·         The matplotlib library is a Python 2D plotting library that allows you to generate plots, scatter plots, histograms, bar charts etc. 
+
+Let’s visualize our data using Matplotlib and seaborn library.
+
+ 
+
+Before diving into the code, let's look at some of the basic properties we will be using when plotting.
+
+xlabel: Set the label for the x-axis.
+
+ylabel: Set the label for the y-axis.
+
+title: Set a title for the axes.
+
+              Legend: Place a legend on the axes.
+
+1. data.corr() gives the correlation between the columns
+
+Correlation is a statistical term describing the degree to which two variables move in coordination with one another. If the two variables move in the same direction, then those variables are said to have a positive correlation. If they move in opposite directions, then they have a negative correlation.
+
+
+
+2.Heat-map: A heatmap is a graphical representation of data that uses a system of color-coding to represent different values.it is used to identify the correlation between the columns using a visual manner.
+
+
+
+·    Correlation strength varies based on colour, the lighter the colour between two variables, more the strength between the variables, the darker the colour displays the weaker correlation
+
+
+·        We can see the correlation scale values on the left side of the above image
+
+2.Pair Plot: Plot pairwise relationships in a dataset.
+
+Pair plot is used to understand the best set of features to explain a relationship between two variables or to form the most separated clusters. It also helps to form some simple classification models by drawing some simple lines or making a linear separation in our data-set.
+
+·         By default, this function will create a grid of Axes such that each numeric variable in data will be shared across the y-axes across a single row and the x-axes across a single column. The diagonal plots are treated differently: a univariate distribution plot is drawn to show the marginal distribution of the data in each column.
+
+·         We implement this using the below code
+
+Code:- sns.pairplot(data)
+
+
+The output is as shown below- 
+
+
+
+Pair plot usually gives pair wise relationships of the columns in the dataset
+
+From the above pairplot we infer that
+
+1. from the above plot we can draw inferences such as linearity and strength between the variables
+
+2. how features are correlated(positive, neutral and negative)
+
+3. Box Plot:
+
+Box-plot is a type of chart often used in explanatory data analysis. Box plots visually show the distribution of numerical data and skewness by displaying the data quartiles (or percentiles) and averages.
+
+Box plots are useful as they show the average score of a data set. The median is the average value from a set of data and is shown by the line that divides the box into two parts. Half the scores are greater than or equal to this value and half are less.jupyter has a built-in function to create boxplot called boxplot(). A boxplot plot is a type of plot that shows the spread of data in all the quartiles
+
+
+
+
+From the above box plot, we infer how the data points are spread and the existence of the outliers
+
+4.  Joint plot:
+
+A Joint plot comprises two plots. Out of the three, one plot displays a bivariate graph that shows how the dependent variable(Y) varies with the independent variable(X). Another plot is placed horizontally at the top of the bivariate graph and it shows the distribution of the independent variable(X).
+
+
+Here we are comparing the variables such as “Min Temp” and “Rainfall”
+
+The column “MinTemp” is following the normal distribution.
+
+
+
+
+
+
+
+Joinplot with hue function:-
+
+
+
+
+
+This plot is able to generate the relationship between 3 variables, in the above plot we can see the relation between MaxTemp,Rainfall and class segregation of the data
+
+5 .Hist plot:-
+
+Plot univariate or bivariate histograms to show distributions of datasets. A histogram is a classic visualization tool that represents the distribution of one or more variables by counting the number of observations that fall within discrete bins.
+
+
+
+
+
+
+
+From the above graph we can infer that,RainTomorrow column has more no.of  NO’s and less no.fo Yes categories.
+
+
+
+6.Scatter-plot:-
+
+  A scatter plot (also called a scatterplot, scatter graph, scatter chart, scattergram, or scatter diagram) is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data.
+
+
+
+
+
+From the above graph, we can infer that there is some positive relation between the two variables
+
+
+
+7. A Distplot or distribution plot:-
+
+ depicts the variation in the data distribution. Seaborn Distplot represents the overall distribution of continuous data variables. The Seaborn module along with the Matplotlib module is used to depict the distplot with different variations in it.
+
+
+
+
+
+From the above graph, we can infer that the column MinTemp follows the normal distribution
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Splitting the Dateset into Dependent and Independent variable
+In machine learning, the concept of the dependent variable (y) and independent variables(x) is important to understand. Here, the Dependent variable is nothing but output in the dataset and the independent variable is all inputs in the dataset. 
+
+With this in mind, we need to split our dataset into the matrix of independent variables and the vector or dependent variable. Mathematically, Vector is defined as a matrix that has just one column.
+
+To read the columns, we will use iloc of pandas (used to fix the indexes for selection) which takes two parameters — [row selection, column selection].
+
+
+Let’s split our dataset into independent and dependent variables.
+
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Feature Scaling
+There is huge disparity between the x values so let us use feature scaling.
+Feature scaling is a method used to normalize the range of independent variables or features of data.
+
+
+After scaling the data will be converted into an array form.
+Loading the feature names before scaling and converting them back to data frame after standard scaling is applied.
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Splitting the data into Train and Test
+·         When you are working on a model and you want to train it, you obviously have a dataset. But after training, we have to test the model on some test datasets. For this, you will a dataset which is different from the training set you used earlier. But it might not always be possible to have so much data during the development phase. In such cases, the solution is to split the dataset into two sets, one for training and the other for testing.
+
+The train-test split is a technique for evaluating the performance of a machine learning algorithm.
+Train Dataset: Used to fit the machine learning model.
+Test Dataset: Used to evaluate the fit machine learning model.
+In general you can allocate 80% of the dataset to the training set and the remaining 20% to the test set.
+Now split our dataset into train set and test using train_test_split class from scikit learn library.
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Model Building
+The model building includes the following main tasks
+
+
+Import the model building Libraries
+
+Initializing the model
+
+Training and testing the model
+
+Evaluation of Model
+
+Save the Model
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Model Building
+The model building includes the following main tasks
+
+
+Import the model building Libraries
+
+Initializing the model
+
+Training and testing the model
+
+Evaluation of Model
+
+Save the Model
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Model Building
+The model building includes the following main tasks
+
+
+Import the model building Libraries
+
+Initializing the model
+
+Training and testing the model
+
+Evaluation of Model
+
+Save the Model
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Model Building
+The model building includes the following main tasks
+
+
+Import the model building Libraries
+
+Initializing the model
+
+Training and testing the model
+
+Evaluation of Model
+
+Save the Model
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Training and Testing the Model
+Once after splitting the data into train and test, the data should be fed to an algorithm to build a model.
+
+There are several Machine learning algorithms to be used depending on the data you are going to process such as images, sound, text, and numerical values. The algorithms that you can choose according to the objective that you might have it may be Classification algorithms are Regression algorithms.
+
+1.Logistic Regression
+
+2. Decision Tree Classifier
+
+3. Random Forest Classifier
+
+4.KNN
+
+5.svm
+
+5.xgboost
+
+Steps in Building the model:-
+
+Initialize the model.
+Fit the models with x_train and y_train.
+Predict the y_train values and calculate the accuracy.
+Predict the y_test values and calculate the accuracy.
+
+We’re going to use x_train and y_train obtained above in the train_test_split section to train our decision tree regression model. We’re using the fit method and passing the parameters as shown below.
+
+We are using the algorithm from Scikit learn library to build the model as shown below,
+
+Once the model is trained, it’s ready to make predictions. We can use the predict method on the model and pass x_test as a parameter to get the output as y_pred.
+
+Notice that the prediction output is an array of real numbers corresponding to the input array.
+
+ 
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Model Evaluation
+After training the model, the model should be tested by using the test data which is been separated while splitting the data for checking the functionality of the model.
+
+Regression Evaluation Metrics:
+
+These model evaluation techniques are used to find out the accuracy of models built in classification type of machine learning models. We have three types of evaluation methods.
+
+ 
+
+·         Accuracy_score
+
+·         Confusion matrix
+
+·         Roc- Auc Curve
+
+1. Accuracy_score 
+
+It is the ratio of the number of correct predictions to the total number of input samples.
+
+
+
+
+
+Select the model, which gives the best accuracy of all, generate predictions and find the accuracy with training and testing data
+
+ 
+
+2.  Confusion Matrix
+
+
+It is a matrix representation of the results of any binary testing.
+
+
+
+Fig: Confusion Matrix of prediction of rainfall
+
+
+True Positive: 3242 (You have predicted the positive case correctly!)
+True Negative: 21014 (You have predicted negative case correctly!)
+False Positive: 1053 (You have predicted it will rain, but in actuality, it will not rain)
+False Negative: 3130 (Wrong predictions )
+3. Roc-Auc Curve
+
+·         AUC is the area under the ROC curve. AUC ROC indicates how well the probabilities from the positive classes are separated from the negative classes.
+
+·         AUC - ROC curve is a performance measurement for classification problems at various thresholds settings
+
+·         ROC is a probability curve and AUC represents the degree or measure of separability.
+
+·         Higher the AUC, better the model is at predicting 0s as 0s and 1s as 1sThe ROC curve is plotted with TPR against the FPR where TPR is on the y-axis and FPR is on the x-axis.
+
+Code for Roc and performance 
+
+
+For testing the model we use the below method,
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Save the Model
+After building the model we have to save the model.
+
+Pickle in Python is primarily used in serializing and de serializing a Python object structure. In other words, it's the process of converting a Python object into a byte stream to store it in a file/database, maintain program state across sessions, or transport data over the network. wb indicates write method and rd indicates read method.
+
+This is done by the below code
+
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Application Building
+In this section, we will be building a web application that is integrated to the model we built. A UI is provided for the uses where he has to enter the values for predictions. The enter values are given to the saved model and prediction is showcased on the UI.
+
+This section has the following tasks
+
+Building HTML Pages
+Building server-side script
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Build HTML Code
+In this HTML page, we will create the front end part of the web page. In this page we will accept input from the user and Predict the values.For more information regarding HTML
+
+In our project we have 3 HTML files,they are
+
+1.index.html
+
+The html page looks like
+
+
+2.chance.html
+
+
+
+3.noChance.html
+
+
+
+
+
+
+3. noChance.html
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Main Python Script
+Let us build an app.py flask file which is a web framework written in python for server-side scripting. Let’s see step by step procedure for building the backend application.
+In order to develop web API with respect to our model, we basically use the Flask framework which is written in python.
+Importing the necessary libraries for building a flask application and integrating model and HTML pages
+
+
+
+Initializing the flask app
+Calling the pkl models and saving into a variable
+Routing and rending to the HTML page
+Calling the inputs from the HTML page and saving into the variable
+Creating the data labels
+Forming the data frame with labels and the data
+Scaling the data
+Predicting the values,by passing the data into the model
+Rendering the results onto the HTML pages based on the output
+If the output is class-0,it means a page that displays non-potential customer will be rendered, if the output is 1 , a page with the potential customers will be displayed and the output is 2 a page with highly potential customer will be rendered.
+The value of __name__ is set to __main__ when the module run as the main   program otherwise it is set to the name of the module
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+
+ 
+ 
+ 
+ 
+ 
+Run the App
+Open anaconda prompt  from the start menu
+
+Navigate to the folder where your python script is.
+
+Now type “python app.py” command
+
+Navigate to the localhost where you can view your web page,Then it will run on local host:5000
+
+
+
+
+Toggle navigation
+1
+ Dashboard
+ Internship
+ Support
+Guided Project
+Project Workspace
+Maximize Screen
+
+Output
+Copy the http link and paste it in google link tab,it will display the form page
+Enter the values as per the form and click on predict button
+It will redirect to the page based on prediction output
+If the output predicted, the rain will not fall, this page will be displayed on the user interface
+
+
+
+If the prediction is the occurrence of rain, this page will be get displayed on the user interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
